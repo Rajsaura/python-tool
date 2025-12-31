@@ -24,10 +24,6 @@ levels = [500 ,1000, 2000, 5000, 10000, 50000, 100000, 250000, 500000,500000, 50
 
 for i, question in enumerate(questions):
     print(f"Q{i+1}: {question[0]}")
-# for i, question in enumerate(questions):
-# # alternative to above line as be as:-
-#        for i in range(len(questions)):
-#                question = questions[i] 
 
     print(question[0])
 
@@ -49,4 +45,5 @@ for i, question in enumerate(questions):
         elif i >= 12 :
             print(f"you won only {levels[12]}")
         break
+
 
